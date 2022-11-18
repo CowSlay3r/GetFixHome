@@ -1,0 +1,197 @@
+
+header {
+    background-color: #FFD700;
+    width: 100%;
+    height: 174px;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.search {
+    display: inline-block;
+}
+
+.search input {
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+
+input::placeholder {
+    margin-left: 20px;
+}
+
+.search button {
+    width: 166px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+
+/* =================== SECTION ============================ */
+
+.section {
+    background-color: #022C43;
+    width: 100%;
+    height: 400px;
+}
+
+.section .left p {
+    color: #fff;
+}
+
+.section .left button {
+    background-color: #FFD700;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* ================= category ===================== */
+
+.category {
+    display: inline-block;
+    background-color: #fff;
+    width: 700px;
+    height: 80px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: -50px;
+    margin-left: 250px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    padding: 20px;
+}
+
+.category h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    /* margin: 10px; */
+}
+ 
+
+.icons {
+    display: inline-block;
+}
+
+
+/* ==================== offer image ============================ */
+
+
+
+.offers .offer-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.offers p {
+    text-align: center;
+    color: #848484;
+    margin-bottom: 30px;
+}
+
+.offers .offer-img h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.offers .offer-img p {
+    margin-top: 0;
+    padding-top: 0;
+    padding: 10px;
+}
+
+.offer-img {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+}
+
+
+/* ============== services ============= */
+
+/* ============ container ============== */
+
+footer {
+    background-color: #022C43;
+}
+.container {
+    width: 100%;
+}
+
+.container .left {
+    width: 50%;
+    float: left;
+    display: inline-block;
+    background-color: #022C43;
+    height: 300px;
+}
+
+.container .right {
+    width: 50%;
+    float: right;
+    display: inline-block;
+    background-color: #FFD700;
+    height: 300px;
+
+}
+
+.container .img-container {
+    /* display: inline-block; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
+
+.container-footer {
+    display: inline-block;
+}
+
+.container-footer h3 {
+    color: #FFD700;
+}
+
+.container-footer li {
+    margin: 10px;
+}
+
+.container-footer li a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
